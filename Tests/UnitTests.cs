@@ -50,9 +50,9 @@ namespace TravisCILab
         [Test]
         public void Divide_Valid()
         {
-            Assert.AreEqual(1, Program.Subtract("1", "2"));
-            Assert.AreEqual(1, Program.Subtract("3", "2"));
-            Assert.AreEqual(1, Program.Subtract("5", "7"));
+            Assert.AreEqual(2, Program.Subtract("2", "1"));
+            Assert.AreEqual(3, Program.Subtract("9", "3"));
+            Assert.AreEqual(5, Program.Subtract("25", "5"));
         }
 
         [Test]
